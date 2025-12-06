@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raml101</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <div class="sidenav-content">
+            <a href="#"><i class="fas fa-book-open"></i> Guide</a>
+            <a href="#"><i class="fas fa-star"></i> Benefits</a>
+            <a href="#"><i class="fas fa-hands-helping"></i> Support</a>
+        </div>
+        <div class="whatsapp-link">
+            <a href="https://wa.me/yournumber" target="_blank"><i class="fab fa-whatsapp"></i> Join our WhatsApp</a>
+        </div>
+    </div>
+    
+    <div id="main">
+        <div id="overlay" class="overlay"></div>
+        <div id="container">
+            <div id="top">
+                <div class="menu-icon" id="menuButton">
+                    <div class="icon-barOne"></div>
+                    <div class="icon-barTwo"></div>
+                    <div class="icon-barThree"></div>
+                </div>
+                
+                <div id="boxesContainer">
+                    <div id="boxFour" class="box"></div>
+                    <div id="boxThree" class="box"></div>
+                    <div id="boxTwo" class="box"></div>
+                    <div id="boxOne" class="box"></div>
+                </div>
+                
+                <button id="deleteBtn"><i class="fas fa-trash-alt"></i></button>
+            </div>
+
+            <div id="linesContainer">
+                <div id="lineOne" class="line">line 1</div>
+                <div id="lineTwo" class="line">line 2</div>
+                <div id="lineThree" class="line">line 3</div>
+                <div id="lineFour" class="line">line 4</div>
+            </div>
+            
+            <button id="generateBtn">Generate</button>
+            
+            <!-- Templates -->
+            <div id="dotTemplate" class="dot" style="display: none;"></div>
+            <div id="dashTemplate" class="dash" style="display: none;"></div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

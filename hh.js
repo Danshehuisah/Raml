@@ -1,0 +1,1 @@
+now, do your corrections inside this code and give me back the complete vew.js so that I can copy and past it once
